@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Meridian Build Group</title>
+  <meta name="description" content="Explore Meridian Build Group's portfolio of completed construction projects across commercial, residential, infrastructure and industrial sectors." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo">MBG<span>.</span></a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="index.html#contact" class="nav__cta">Get in Touch</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-hero__eyebrow">Our Portfolio</p>
+      <h1 class="page-hero__title">Every Project,<br>A Proof Point.</h1>
+      <p class="page-hero__sub">180+ completed works across India — from intimate residences to city-shaping towers. Browse by category or scroll them all.</p>
+    </div>
+    <div class="page-hero__bg"></div>
+  </section>
+
+  <!-- FILTER -->
+  <section class="projects-section section">
+    <div class="container">
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+        <button class="filter-btn" data-filter="industrial">Industrial</button>
+      </div>
+
+      <!-- PROJECT GRID -->
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- Project 1 -->
+        <article class="proj-card" data-category="commercial">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--1">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="20" y="30" width="30" height="90" fill="currentColor" opacity=".15"/><rect x="55" y="10" width="40" height="110" fill="currentColor" opacity=".3"/><rect x="100" y="40" width="25" height="80" fill="currentColor" opacity=".2"/><rect x="130" y="20" width="50" height="100" fill="currentColor" opacity=".25"/><line x1="0" y1="120" x2="200" y2="120" stroke="currentColor" stroke-width="1" opacity=".3"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Commercial</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Jaipur · 2023</div>
+            <h3>Apex Business Tower</h3>
+            <p>22-storey Grade-A office complex with 40,000 sq ft leasable space. GRIHA 4-star rated.</p>
+            <div class="proj-card__details">
+              <span>40,000 sq ft</span>
+              <span>28 months</span>
+              <span>₹ 85 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="proj-card proj-card--wide" data-category="infrastructure">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--2">
+              <svg viewBox="0 0 400 160" fill="none"><path d="M0 100 Q100 60 200 90 Q300 120 400 80" stroke="currentColor" stroke-width="2" fill="none" opacity=".4"/><path d="M0 110 Q100 70 200 100 Q300 130 400 90" stroke="currentColor" stroke-width="1" fill="none" opacity=".2"/><circle cx="200" cy="90" r="8" fill="currentColor" opacity=".3"/><line x1="200" y1="90" x2="200" y2="40" stroke="currentColor" stroke-width="1" opacity=".3"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Infrastructure</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Kota–Bundi Corridor · 2022</div>
+            <h3>Chambal River Bridge & Approach Road</h3>
+            <p>560-metre RCC bridge across the Chambal River with 4.2 km of 4-lane approach highway. Connects two districts, reducing travel time by 40 minutes.</p>
+            <div class="proj-card__details">
+              <span>4.76 km total</span>
+              <span>36 months</span>
+              <span>₹ 210 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="proj-card" data-category="residential">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--3">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="30" y="60" width="60" height="70" fill="currentColor" opacity=".2"/><path d="M25 60L60 30l35 30" fill="currentColor" opacity=".15"/><rect x="50" y="90" width="20" height="40" fill="currentColor" opacity=".25"/><rect x="110" y="70" width="55" height="60" fill="currentColor" opacity=".18"/><path d="M105 70l27-22 28 22" fill="currentColor" opacity=".12"/><line x1="0" y1="130" x2="200" y2="130" stroke="currentColor" stroke-width="1" opacity=".3"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Residential</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Ajmer · 2023</div>
+            <h3>Meridian Greens Township</h3>
+            <p>300-unit gated community with clubhouse, parks, and underground utilities. RERA-compliant, fully handed over.</p>
+            <div class="proj-card__details">
+              <span>300 units</span>
+              <span>30 months</span>
+              <span>₹ 120 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="proj-card" data-category="industrial">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--4">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="10" y="50" width="180" height="75" fill="currentColor" opacity=".12"/><path d="M10 50 L10 25 L70 50" fill="currentColor" opacity=".15"/><path d="M70 50 L70 20 L130 50" fill="currentColor" opacity=".2"/><path d="M130 50 L130 30 L190 50" fill="currentColor" opacity=".15"/><rect x="30" y="75" width="20" height="50" fill="currentColor" opacity=".2"/><rect x="90" y="75" width="20" height="50" fill="currentColor" opacity=".2"/><rect x="150" y="75" width="20" height="50" fill="currentColor" opacity=".2"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Industrial</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Bhiwadi · 2022</div>
+            <h3>SunPharma Logistics Hub</h3>
+            <p>Temperature-controlled warehouse complex with 3 loading bays, fire suppression systems, and solar roof integration.</p>
+            <div class="proj-card__details">
+              <span>80,000 sq ft</span>
+              <span>18 months</span>
+              <span>₹ 45 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="proj-card" data-category="commercial">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--5">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="40" y="20" width="120" height="105" fill="currentColor" opacity=".12"/><line x1="40" y1="45" x2="160" y2="45" stroke="currentColor" stroke-width="1" opacity=".2"/><line x1="40" y1="70" x2="160" y2="70" stroke="currentColor" stroke-width="1" opacity=".2"/><line x1="40" y1="95" x2="160" y2="95" stroke="currentColor" stroke-width="1" opacity=".2"/><line x1="80" y1="20" x2="80" y2="125" stroke="currentColor" stroke-width="1" opacity=".2"/><line x1="120" y1="20" x2="120" y2="125" stroke="currentColor" stroke-width="1" opacity=".2"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Commercial</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Udaipur · 2021</div>
+            <h3>Lake View Mall & Hotel Complex</h3>
+            <p>Integrated retail mall (G+4) and boutique hotel (60 keys) overlooking Fateh Sagar Lake. Awarded Best Commercial Project, Rajasthan 2022.</p>
+            <div class="proj-card__details">
+              <span>1.2 lakh sq ft</span>
+              <span>32 months</span>
+              <span>₹ 165 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="proj-card" data-category="infrastructure">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--6">
+              <svg viewBox="0 0 200 140" fill="none"><path d="M10 120 L10 80 L30 80 L30 120" fill="currentColor" opacity=".25"/><path d="M35 120 L35 60 L55 60 L55 120" fill="currentColor" opacity=".3"/><path d="M60 120 L60 50 L80 50 L80 120" fill="currentColor" opacity=".2"/><path d="M5 80 L90 80" stroke="currentColor" stroke-width="1.5" opacity=".35"/><path d="M0 50 Q45 20 90 50" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".3"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Infrastructure</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Kota · 2020</div>
+            <h3>Kota Water Treatment Plant</h3>
+            <p>120 MLD capacity water treatment facility serving 6 lakh residents. Civil, structural, and M&E works executed under a single EPC contract.</p>
+            <div class="proj-card__details">
+              <span>120 MLD</span>
+              <span>24 months</span>
+              <span>₹ 90 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 7 -->
+        <article class="proj-card" data-category="residential">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--7">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="20" y="30" width="70" height="95" fill="currentColor" opacity=".15"/><rect x="25" y="10" width="15" height="20" fill="currentColor" opacity=".2"/><rect x="110" y="40" width="70" height="85" fill="currentColor" opacity=".18"/><rect x="35" y="55" width="18" height="20" fill="currentColor" opacity=".3"/><rect x="60" y="55" width="18" height="20" fill="currentColor" opacity=".3"/><rect x="35" y="85" width="18" height="20" fill="currentColor" opacity=".3"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Residential</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Jodhpur · 2023</div>
+            <h3>Rajputana Luxury Villas</h3>
+            <p>20 bespoke villas inspired by Rajputana heritage architecture. Each villa features a private pool, landscaped courtyard, and smart-home automation.</p>
+            <div class="proj-card__details">
+              <span>20 villas</span>
+              <span>22 months</span>
+              <span>₹ 75 Cr</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8 -->
+        <article class="proj-card" data-category="industrial">
+          <div class="proj-card__img">
+            <div class="proj-placeholder proj-placeholder--8">
+              <svg viewBox="0 0 200 140" fill="none"><rect x="10" y="55" width="180" height="70" fill="currentColor" opacity=".1"/><rect x="10" y="40" width="45" height="15" fill="currentColor" opacity=".2"/><rect x="80" y="35" width="45" height="20" fill="currentColor" opacity=".2"/><rect x="150" y="38" width="40" height="17" fill="currentColor" opacity=".2"/><line x1="32" y1="40" x2="32" y2="0" stroke="currentColor" stroke-width="2" opacity=".25"/><line x1="102" y1="35" x2="102" y2="5" stroke="currentColor" stroke-width="2" opacity=".25"/></svg>
+            </div>
+            <div class="proj-card__overlay">
+              <span class="proj-card__tag">Industrial</span>
+            </div>
+          </div>
+          <div class="proj-card__body">
+            <div class="proj-card__meta">Neemrana · 2021</div>
+            <h3>Techno Auto Parts Factory</h3>
+            <p>55,000 sq ft precision manufacturing facility with overhead crane infrastructure, ETP plant, and worker amenity block.</p>
+            <div class="proj-card__details">
+              <span>55,000 sq ft</span>
+              <span>14 months</span>
+              <span>₹ 32 Cr</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- LOAD MORE -->
+      <div class="projects-more">
+        <p class="projects-count">Showing <strong id="visibleCount">8</strong> of <strong>180+</strong> projects</p>
+        <a href="index.html#contact" class="btn btn--outline">Have a Project in Mind? Talk to Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">MBG<span>.</span></a>
+          <p>Building the backbone of India's tomorrow — with precision, pride, and purpose.</p>
+        </div>
+        <div class="footer__nav">
+          <h5>Pages</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#">Commercial Build</a></li>
+            <li><a href="#">Infrastructure</a></li>
+            <li><a href="#">Residential</a></li>
+            <li><a href="#">Industrial</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h5>Contact</h5>
+          <p>14, Industrial Area, Phase II<br>Kota, Rajasthan 324005</p>
+          <a href="tel:+911234567890">+91 12345 67890</a>
+          <a href="mailto:hello@meridianbuild.in">hello@meridianbuild.in</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 Meridian Build Group. All rights reserved.</p>
+        <p>Designed with intent. Built to last.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
